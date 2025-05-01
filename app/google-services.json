@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "822495624333",
+    "project_id": "photogallary-7bb73",
+    "storage_bucket": "photogallary-7bb73.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822495624333:android:c38203c716ac27596ab6c4",
+        "android_client_info": {
+          "package_name": "com.example.photogalleryapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsZyIjNz_hSUFobeGpadbD4zzViKMcUeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

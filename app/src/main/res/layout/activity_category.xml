@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/appbackground9">
+
+    <!-- Custom Toolbar with Logout -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/coffee_dark"
+        android:elevation="4dp"
+        app:title=""
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Categories"
+                android:textSize="20sp"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Logout"
+                android:backgroundTint="@color/coffee_medium"
+                android:textAllCaps="false"
+
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Category Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:background="@drawable/appbackground9">
+
+        <Button
+            android:id="@+id/btnNature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nature"
+            android:backgroundTint="@color/coffee_medium"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnSelf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Self"
+            android:backgroundTint="@color/coffee_medium"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnTechnology"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Technology"
+            android:backgroundTint="@color/coffee_medium"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnFavourite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Favourite"
+            android:backgroundTint="@color/coffee_medium"/>
+    </LinearLayout>
+</LinearLayout>
